@@ -1,0 +1,93 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+$white: #fff;
+
+
+$newsDefaultColor: rgba(30, 148, 251, 100);
+$newsDefaultHover: #E0F0FF;
+$newsDefaultActive: #73B8F9;
+$newsDefaultDisabled: rgba(204, 234, 255, 100);
+$newsDefaultBorderColor: #E0F0FF;
+$newsDefaultBorderActiveColor: #73B8F9;
+
+$newsInfoColor: rgba(16, 16, 16, 100);
+$newsInfoActive: rgba(139, 193, 240, 100);
+//$newsInfoDisabled: rgb(221, 235, 255);
+$newsInfoDisabled: rgb(255, 255, 255);
+$newsInfoBorderColor: #bbb;
+$newsInfoBorderHoverColor: #1D94FB;
+$newsInfoBorderActiveColor: #8BC1F0;
+$newsInfoBorderDisabledColor:#bbb ;
+
+$newsPrimaryDefault: #3DA2EC;
+$newsPrimaryHover: #5CBAFF;
+$newsPrimaryActive: #298AD0;
+$newsPrimaryDisabled: #CCEAFF;
+$newsPrimaryBorderColor: transparent;
+
+$newsDangerDefault: #9F1010;
+$newsDangerHover: #BF2D2D;
+$newsDangerActive: #E16161;
+$newsDangerDisabled: #ECA8A8;
+$newsDangerBorderColor: transparent;
+
+$newTextDefaultColor : #1990FF;
+$newTextSuccessColor : #42b983;
+$newTextDangerColor : #E51C23;
+$newTextDisabledColor : #AEAEAE;
+
+$newsPurpleDefault: #8061F8;
+$newsPurpleHover: #8974f8;
+$newsPurpleActive: #9283f8;
+$newsPurpleDisabled: #b8a6f8;
+$newsPurpleBorderColor: #8061F8;
+
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+$navBarHeight: 50px;
+
+/****************************************/
+$darkThemeFirstColor: #171717;
+$darkThemeSecondColor: #282828;
+$darkThemeThirdColor: #4c4c4c;
+$darkThemeForthColor: #262c2f;
+$primaryColor: #2af598;
+$secondaryColor: #009efd;
+$topNavigationBarHeight: 35px;
+$stateBarHeight: 2px;
+$sideNavigationBarCompanionWidth: 23px;
+$sideNavigationBarContentWidth: 300px;
+$editorBottomNavigationBarHeight: 40px;
+$editorTopNavigationBarHeight: 40px;
+$toolboxWidth: 50px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  navBarHeight: $navBarHeight;
+}
