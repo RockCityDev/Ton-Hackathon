@@ -1,0 +1,119 @@
+
+.minganci { color: red; font-style: normal }
+p {
+  margin : 0;
+  padding : 0;
+}
+
+/*********************public-reset*********/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+p,
+form,
+figure,
+dl,
+dd {
+  margin: 0;
+}
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  margin: 0;
+  /*padding: 0;*/
+  list-style: inherit;
+  /*list-style: none;*/
+}
+ol {
+  list-style-type:decimal
+}
+main {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight:normal;
+}
+a {
+  text-decoration: none;
+  color:#333;
+}
+img {
+  vertical-align: top;
+  border:none;
+}
+input,
+button,
+select,
+textarea {
+  vertical-align: middle;
+  outline: none;
+  border:none;
+  padding: 0;
+  margin: 0;
+}
+input{
+  border:1px solid #a1a1a1;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+.clearFix {
+  zoom: 1;
+}
+.clearFix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+i{
+  /*font-style:normal;*/
+}
+em {
+  /*font-style: normal;*/
+}
+em.minganci {
+  font-style: normal;
+}
+
+/*图片*/
+#tinymce {
+
+}
+#tinymce *{
+  max-width: calc(100% - 2px );
+}
+#tinymce img,
+#tinymce video,
+#tinymce audio{
+  max-width: calc(100% - 2px );
+  height: auto;
+}
+
+#tinymce audio{
+  min-height: 36px;
+}
+
+.tox-dialog .upload-upload-info {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+  text-indent: 226px;
+}
