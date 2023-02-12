@@ -1,0 +1,11 @@
+build/*.js
+src/assets
+public
+dist
+src/vendor/**/*.js
+src/utils/cropper.js
+
+src/api/markHandle11.js
+src/views/task/checkTaskDouble_1.vue
+
+
